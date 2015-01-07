@@ -7,7 +7,7 @@ public class TestMain {
     public void testPasses() {
         // expected outcome
         int expected = 3;
-        int output = Main.calc(2,2);
+        int output = Main.calc(1,2);
         //check if output equals expected.
         assertEquals(output, expected);
     }
